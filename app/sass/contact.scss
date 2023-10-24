@@ -1,0 +1,13 @@
+.contact{
+  
+  margin: 5px 10px;
+}
+
+.contact-wrapper{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0px;
+  bottom: 0;
+  z-index: 2;
+}
