@@ -23,17 +23,18 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 105%;
+  background-size: 100% 100%;
   // object-fit: cover;
   // background-size: contain;
   // background-position: center;
-  // animation: zoom-out 3s linear infinite;
+  animation: zoom-out 3s linear infinite;
   }
-// @keyframes zoom-out{
-//   100%{
-//     width: 90%;
-//   }
-// }
+@keyframes zoom-out{
+  100%{
+    width: 98%;
+  }
+}
 
 .text-box{
   width: 600px;
