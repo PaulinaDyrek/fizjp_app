@@ -14,7 +14,7 @@
   top: 9.5vh;
   left: 0;
   height: 100vh;
-  width: 105%;
+  width: 100%;
   background-size: contain;
   background-position: center;
 }
@@ -23,17 +23,17 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 101%;
+  width: 100%;
   // object-fit: cover;
   // background-size: contain;
   // background-position: center;
-  animation: zoom-out 3s linear infinite;
+  // animation: zoom-out 3s linear infinite;
   }
-@keyframes zoom-out{
-  100%{
-    width: 90%;
-  }
-}
+// @keyframes zoom-out{
+//   100%{
+//     width: 90%;
+//   }
+// }
 
 .text-box{
   width: 600px;
@@ -68,7 +68,7 @@
 }
 
 .banner1{
-  animation: slide1 12s linear infinite ;
+  animation: slide1 12s linear infinite  ;
 }
 .banner2{
   animation: slide2 12s linear infinite ;
