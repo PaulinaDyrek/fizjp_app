@@ -2,7 +2,8 @@ $mainColor: #8ac3bb;
 .work{
   background-color:#f6fbff;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  position: relative;
 }
 .title-container{
   position: relative;
@@ -118,4 +119,15 @@ $mainColor: #8ac3bb;
 }
 .sidebar:hover .sidebar__ul .sidebar__list{
   justify-content: flex-start;
+}
+.offer{
+  width: 60%;
+  height: 65vh;
+  border-left: solid 1px black;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%,0);
+  padding: 0 20px;
+  
 }
