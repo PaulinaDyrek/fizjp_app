@@ -1,3 +1,5 @@
+$mainColor: #8ac3bb;
+
 .nav {
   position: fixed;
   top: 0;
@@ -48,7 +50,7 @@
   text-decoration: none;
   &:hover
   {
-  color: rgb(138, 195, 187);
+  color:  #8ac3bb;
   transition: 0.4s;
   }
 }

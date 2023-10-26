@@ -1,3 +1,4 @@
+$mainColor: #8ac3bb;
 
 .review__wrapper{
   width: 100%;
@@ -53,7 +54,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background: rgb(138, 195, 187);
+    background: $mainColor;
   }
 }
 .profile{
@@ -69,7 +70,7 @@
 }
 .profile h3{
   font-size: 26px;
-  color:rgb(138, 195, 187);
+  color: $mainColor;
   margin-bottom: 8px;
 }
 
@@ -87,7 +88,7 @@
   height: 100%;
   padding: 15px 0;
   box-sizing: border-box;
-  background: rgb(138, 195, 187);
+  background: $mainColor;
   position: absolute;
   right: 0;
   top: 0;
@@ -106,6 +107,6 @@
 }
 
 ::selection{
-  background: rgb(138, 195, 187);
+  background: $mainColor;
   color: white;
 }

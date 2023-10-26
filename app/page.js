@@ -3,15 +3,15 @@ import styles from './page.module.css';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import layout from './layout.js';
-import Menu from './components/Menu.js';
+import Menu from './pages/Menu.js';
 // import Logo from './components/Logo.js';
-import Home from './components/Home.js';
-import About from './components/About.js';
-import Contact from './components/Contact.js';
-import Slider from './components/Slider.js';
-import ContactForm from './components/ContactForm.js';
-import Review from './components/Review.js';
-import Methods from './components/Methods.js';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import Contact from './pages/Contact.js';
+import Slider from './pages/Slider.js';
+import ContactForm from './pages/ContactForm.js';
+import Review from './pages/Review.js';
+import Methods from './pages/Methods.js';
 import { Children } from 'react';
 
 

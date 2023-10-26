@@ -1,8 +1,11 @@
+$mainColor: #8ac3bb;
+
+
 .slide-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #8ac3bb ;
+  background:  $mainColor;
   margin-top: 8vh;
   position: relative;
 }
