@@ -32,6 +32,9 @@ export default function Offer(){
           Natus quos fugit earum deleniti molestias, ex, nam illum nesciunt vero dolorem, unde alias quae enim pariatur doloremque accusamus magni assumenda a rem nisi? In iure aut reiciendis soluta odio.
           Aspernatur esse exercitationem ipsum, quasi laborum rem et ad quos a vel eius porro quidem quam velit minima tenetur. Fugit dolore deserunt deleniti, reiciendis assumenda accusantium veritatis minus cum omnis.
           Harum esse pariatur ducimus quo laborum eveniet, porro, provident quam dicta culpa a aliquid assumenda sunt deleniti id! Magni nobis iure eum perspiciatis facere amet doloribus fugit sed ad molestiae!</p>
+          <div className='offer__img'>
+            <img src='/offer/method1.jpg'alt='<a href="https://pl.freepik.com/darmowe-zdjecie/profesjonalny-fizjoterapeuta-zenski-masaz-ramion-do-kobiety-blondynka_1318975.htm#query=rehabilitacja&position=18&from_view=search&track=sph">Obraz autorstwa javi_indy</a> na Freepik' />
+          </div>
         </div>
         <div className='main__question'></div>
       </div>

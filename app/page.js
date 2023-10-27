@@ -12,7 +12,8 @@ import Slider from './pages/Slider.js';
 import ContactForm from './pages/ContactForm.js';
 import Review from './pages/Review.js';
 import Methods from './pages/Methods.js';
-import { Children } from 'react';
+import Header from './pages/Header.js';
+
 
 
 export default function Web() {
@@ -20,7 +21,8 @@ export default function Web() {
     <layout id='__next'>
       <Contact></Contact>
       <Menu></Menu>
-      <Slider></Slider>
+      <Header></Header>
+      {/* <Slider></Slider> */}
       {/* <Logo></Logo> */}
       <Home></Home>
       <About></About>
