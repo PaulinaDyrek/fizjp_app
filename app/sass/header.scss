@@ -15,7 +15,7 @@
 .header-title{
   position: absolute;
   right: 0;
-  bottom: 20%;  
+  bottom: 10%;  
   width: 50%;
   height: 50%;
   color: white;
@@ -24,10 +24,32 @@
 .header-title h1{
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 50px;
+  font-size: 40px;
+  font-weight: 400;
 }
 .header-title h3{
   font-weight: 400;
+  font-size: 16px;
+}
+.main-title{
+  font-size: 120px;
+  font-weight: 400;
+  position: absolute;
+  right: 9%;
+  bottom: 60%;  
+  color: transparent;
+  background-image: linear-gradient(white, white);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  text-align: left;
+  background-position: -700px 0;
+  animation: backcolor 5s linear infinite alternate;
+  
+}
+@keyframes backcolor{
+  100%{
+    background-position: 0 0;
+  }
 }
 
 .header-img{
@@ -39,3 +61,12 @@
   z-index: 1;
 }
 
+.contact-link{
+  position: absolute;
+  bottom: 20%;
+  right: 30%;
+  width: 210px;
+  border-radius: 10px;
+ 
+
+}

@@ -2,24 +2,46 @@ import styles from '../sass/home.scss';
 import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCommentMedical,
-  faBrain,
-  faStamp,
-  faUserDoctor,
-  faSuitcaseMedical,
-  faComments
+  faCheck, 
 } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Home (){
   return(
-    <div className='about'>
-      {/* <div className='img_container'>
+    <div className='about__wrapper'>
+      <div className='about__title'>
+        <h3>Dlaczego my?</h3>
+        <h1>Nasi pacjenci są pod doskonałą opieką</h1>
+      </div>
+      <div className='about__main'>
+        <div className='about__question'>
+          <h2>Jak pracujemy?</h2>
+          <div className='about__img'><img src='/about_1.png' alt='Obraz autorstwa jcomp na Freepik' /></div>
+          
+        </div>
+        <div className='about__info'>
+          <ul>
+            <li><FontAwesomeIcon className='about__icon' icon={faCheck} />Indywidualnie dobrana terapia</li>
+            <li><FontAwesomeIcon className='about__icon' icon={faCheck} /> Duże doświadczenie</li>
+            <li><FontAwesomeIcon className='about__icon' icon={faCheck} /> Wiedza poparta certyfikatami</li>
+            <li><FontAwesomeIcon className='about__icon' icon={faCheck} />Nowoczesne metody badania</li>
+            <li><FontAwesomeIcon className='about__icon' icon={faCheck} />Leczenie funkcjonalne</li>
+            <li><FontAwesomeIcon className='about__icon' icon={faCheck} />Wiele pozytywnych opinii</li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+  )
+}
+
+{/* <div className='about'>
+      <div className='img_container'>
         <Image className='about__placeimg'
         src='/main.jpg'
         width={640}
         height={426} />
-      </div> */}
+      </div>
       <div className='about_wrapper'>
         <div className='titlle'>
           <h1 className='titlle_one'>Fizjostacja</h1>
@@ -48,15 +70,4 @@ export default function Home (){
       
       </div>
     
-    </div>
-    
-  )
-}
-
-
-
-  {/* <div className='about__description'>
-        <h1>Poznaj mnie</h1>
-        <Image className='about__img'></Image>
-        <p className='about__text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repellendus tenetur vel, laudantium neque nisi porro, sed rem facere veritatis ea ad? Distinctio velit nemo quasi voluptatibus voluptatem architecto fuga.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repellendus tenetur vel, laudantium neque nisi porro, sed rem facere veritatis ea ad? Distinctio velit nemo quasi voluptatibus voluptatem architecto fuga.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repellendus tenetur vel, laudantium neque nisi porro, sed rem facere veritatis ea ad? Distinctio velit nemo quasi voluptatibus voluptatem architecto fuga.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repellendus tenetur vel, laudantium neque nisi porro, sed rem facere veritatis ea ad? Distinctio velit nemo quasi voluptatibus voluptatem architecto fuga.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repellendus tenetur vel, laudantium neque nisi porro, sed rem facere veritatis ea ad?. o, sed rem facere veritatis ea ad? Distinctio velit nemo quasi voluptatibus voluptatem architecto fuga.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repellendus tenetur vel, laudantium neque nisi porro, sed rem facere veritatis ea ad? Distinctio velit nemo quasi voluptatibus voluptatem architecto fuga.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repellendus tenetur vel, laudantium neque nisi porro, sed rem facere veritatis ea ad?.</p>
-      </div> */}
+    </div> */}
