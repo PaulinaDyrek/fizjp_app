@@ -8,13 +8,16 @@ $mainColor: #8ac3bb;
 .title-container{
   position: relative;
   width: 100%;
-  height: 40vh;
+  height: 45vh;
   overflow: hidden;
-  background: linear-gradient(rgba(152, 161, 161, 0.52), rgba(140, 208, 198, 0.7),rgba(255, 255, 255, 0.45));
+  background: linear-gradient(#759192, #77abad, white);
+  opacity: 0.8;
+  
 }
 .title-container h1 {
   color: white;
   text-transform: uppercase;
+  font-weight: 300;
   letter-spacing: 1px;
   margin-top: 0;
 }
@@ -69,7 +72,7 @@ $mainColor: #8ac3bb;
   margin: auto;
 }
 .sidebar__img{
-  width: 40px;
+  width: 35px;
   margin-right: 0px;
 }
 .sidebar__ul{
@@ -83,6 +86,10 @@ $mainColor: #8ac3bb;
   justify-content: center;
   cursor: pointer;
 }
+.sidebar__ul .sidebar__list .sidebar__link{
+  text-decoration: none;
+  color: black;
+}
 .sidebar__ul .sidebar__list p{
   white-space: nowrap;
   display: none;
@@ -94,7 +101,8 @@ $mainColor: #8ac3bb;
   border: 1px solid $mainColor;
   font-size: 15px;
   &:hover{
-    background-color:rgba(145, 145, 145, 0.9)
+    background-color:rgba(145, 145, 145, 0.9);
+    cursor: pointer;
   }
 }
 .btn-back .btn-link{
@@ -121,13 +129,50 @@ $mainColor: #8ac3bb;
   justify-content: flex-start;
 }
 .offer{
-  width: 60%;
-  height: 65vh;
-  border-left: solid 1px black;
+  width: 75%;
+  border-left: solid 1px $mainColor;
   position: absolute;
   bottom: 10px;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%,0);
-  padding: 0 20px;
+  padding: 0 25px;
+}
+.offer__title{
+  color:$mainColor;
+  font-weight: 400;
+  text-align: left;
+}
+.offer__description{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+.offer__text{
+  text-align: left;
+  width: 60%;
+}
+.img__method{
+  width: 40%;
+  border-radius: 10px;
+}
+.btn-question{
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  border-radius: 10px;
+  background: $mainColor;
+  border: 1px solid $mainColor;
+  font-size: 18px;
+  padding: 5px 10px;
+  margin-top: 20px;
+  &:hover{
+    background-color:rgba(145, 145, 145, 0.9);
+    cursor: pointer;
+  }
+}
+.btn-question .btn-form{
+  text-decoration: none;
+  color: white;
   
 }
