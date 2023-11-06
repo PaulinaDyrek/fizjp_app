@@ -27,12 +27,12 @@ export default function Methods (){
         <div className='methods__icon'>
           <FontAwesomeIcon icon={faHandHoldingHeart} /></div>
         <h3 className='methods__description'>Terapia wisceralna</h3>
-        <Link className='methods__link' href='/pages/method/wisceralna'><p>Rodzaj masażu brzucha przeprowadzany w celu przywrócenia prawidłowego napięcia w obrębie jamy brzusznej. Odpowiednie uciskanie narządów pozwala zdjąć napięcie z mięśni i poprawić działanie układu trzewnego</p></Link>
+        <Link className='methods__link' href='/pages/method/wisceralna'><p>Rodzaj masażu brzucha przeprowadzany w celu przywrócenia prawidłowego napięcia w obrębie jamy brzusznej. Odpowiednie uciskanie narządów pozwala zdjąć napięcie z mięśni i poprawić działanie układu trzewnego.</p></Link>
       </div>
       <div className='methods__info'>
         <div className='methods__icon'>
           <FontAwesomeIcon  icon={faBrain} /></div>
-        <h3 className='methods__description'>Terapia neurofizjologiczna</h3>
+        <h3 className='methods__description'>Terapia neuro/orto</h3>
         <Link className='methods__link' href='/pages/method/neuro-orto'><p>PNF to metoda kinezyterapii opierająca się na neurofizjologicznych wzorcach wykonywania czynności ruchowych oraz ich rozwoju i zmian w trakcie całego życia człowieka.</p></Link>
       </div>
       <div className='methods__info'>
