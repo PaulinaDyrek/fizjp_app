@@ -13,6 +13,7 @@ import ContactForm from './pages/contact/page.js';
 import Review from './pages/Review.js';
 import Methods from './pages/Methods.js';
 import Header from './pages/Header.js';
+import Team from './pages/Team.js';
 
 
 
@@ -25,7 +26,8 @@ export default function Web() {
       {/* <Slider></Slider> */}
       {/* <Logo></Logo> */}
       <Home></Home>
-      <About></About>
+      <Team></Team>
+      {/* <About></About> */}
       <Methods></Methods>
       <Review></Review>
       <ContactForm></ContactForm>

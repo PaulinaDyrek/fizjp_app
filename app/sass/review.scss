@@ -2,13 +2,14 @@ $mainColor: #8ac3bb;
 
 .review__wrapper{
   width: 100%;
-  height: 67vh;
+  height: 70vh;
   background: #f6fbff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding: 15px 0;
+  margin-top: 80px;
 }
 
 .review__title{
@@ -30,7 +31,7 @@ $mainColor: #8ac3bb;
 .review__box{
   width: 90%;
   max-width: 650px;
-  height: 280px;
+  height: 300px;
   border-radius: 10px;
   box-shadow: -10px 10px 10px rgba(0,0,0,0.25);
   position: relative;
@@ -69,9 +70,12 @@ $mainColor: #8ac3bb;
   margin-right: 20px;
 }
 .profile h3{
-  font-size: 26px;
+  font-size: 22px;
   color: $mainColor;
   margin-bottom: 8px;
+}
+.profile__description{
+  font-size: 14px;
 }
 
 #slide{

@@ -33,28 +33,28 @@ export default function (){
               <img src='/review-1.jpg' alt="" />
               <h3>Ania Zagórowska</h3>
             </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
+              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
           </div>
           <div className='card'>
             <div className='profile'>
               <img src='/review-2.jpg' alt="" />
               <h3>Laura Ogrodnik</h3>
             </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
+              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
           </div>
           <div className='card'>
             <div className='profile'>
               <img src='/review-3.jpg' alt="" />
               <h3>Marek Ptak</h3>
             </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
+              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
           </div>
           <div className='card'>
             <div className='profile'>
               <img src='/review-4.jpg' alt="" />
               <h3>Paweł Bielan</h3>
             </div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
+              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
           </div>
 
         </div>
