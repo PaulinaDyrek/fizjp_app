@@ -20,13 +20,15 @@
   
 }
 .contact-title{
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 4px;
   position: absolute;
   left: 50%;
   top: 0%;
   transform: translate(-50%,-0);
   text-transform: uppercase;
   color:rgb(78, 78, 78);
-  letter-spacing: 2px;
   z-index: 2;
   
 }
@@ -37,7 +39,7 @@
   right: 50px;
   width: 90%;
   max-width: 500px;
-  margin-top: 50px;
+  margin-top: 100px;
   z-index: 1;
   
 }
@@ -103,10 +105,12 @@ textarea:valid~label{
   left: 100px;
   top: 25%;
   z-index: 2;
+  color: white;
 }
 
-.info__short, a{
-  color: white;
+.info__short a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   text-align: left;
   text-decoration: none;

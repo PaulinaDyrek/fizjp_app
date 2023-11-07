@@ -43,7 +43,7 @@ export default function Methods (){
       </div>
     <div className='m-img'></div>
     <div className='methods__more'>
-      <button><Link className='methods__link' className='btn-more'href='/pages/method/rehabilitacja'>Więcej...</Link></button>
+      <button><Link className='methods__link'  href='/pages/method/rehabilitacja'>Więcej...</Link></button>
     </div>
     
     

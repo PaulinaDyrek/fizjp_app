@@ -8,7 +8,7 @@ import {
 
 export default function Home (){
   return(
-    <div className='about__wrapper'>
+    <div className='about__wrapper' id='aboutMe'>
       <div className='about__title'>
         <h3>Dlaczego my?</h3>
         <h1>Nasi pacjenci są pod doskonałą opieką</h1>

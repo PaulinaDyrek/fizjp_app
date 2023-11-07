@@ -4,7 +4,7 @@ import styles from 'app/sass/team.scss';
 export default function Team(){
   return(
     <div className='team_wrapper'>
-      <h1 className='team__title'>Poznaj nasz zespół</h1>
+      <h1 className='team__title'><span>Poznaj</span> nasz zespół</h1>
       <div className="profiles__section">
         <div className='team__profiles'>
           <img src='/team/1-fizjo.jpg' className='profile-img' />

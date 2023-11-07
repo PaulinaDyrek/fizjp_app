@@ -11,20 +11,20 @@ export default function (){
     
      upArrow.onclick = function(){
       if(x > '-900'){
-      x = x-300;
+      x = x-320;
       slide.style.top = x + 'px';
       }
      }
 
      downArrow.onclick = function(){
       if(x < '0'){
-      x = x+300;
+      x = x+320;
       slide.style.top = x + 'px';
       }
      }
     }, []);
   return(
-    <div className='review__wrapper'>
+    <div className='review__wrapper' id='opinion'>
       <h1 className='review__title'>Opinie naszych pacjentów</h1>
       <div className='review__box'>
         <div id='slide'>

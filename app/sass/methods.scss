@@ -78,7 +78,12 @@
   overflow: hidden;
   transition: transform 1s;
 }
+.methods__link{
+  color: white;
+  text-decoration: none;
+}
 .methods__link p{
+  
   font-size: 15px;
   font-weight: 300;
   text-align: left;
@@ -89,8 +94,12 @@
   left: 50%;
   transform: translate(-50%,0);
   z-index: 1;
+  
 }
 .methods__more button{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
   padding: 3px 50px;
   border-radius: 10px;
   margin-top: 50px;

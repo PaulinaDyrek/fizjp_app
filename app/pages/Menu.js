@@ -15,6 +15,7 @@ export default function Menu (){
         <a href='#' className='nav__link'>Fizjostacja</a>
         <a href='#aboutMe' className='nav__link'>O nas</a>
         <a href='#offer' className='nav__link'>Oferta</a>
+        <a href='#opinion' className='nav__link'>Opinie</a>
         <a href='#contact' className='nav__link'>Kontakt</a>
       </div>
     </nav>
