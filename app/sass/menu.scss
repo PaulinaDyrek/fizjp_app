@@ -42,16 +42,19 @@ $mainColor: #8ac3bb;
 .nav__link{
   color:rgb(255, 255, 255);
   margin: 10px;
-  padding: 5px;
-  font-size: 17px;
-  font-weight: 600;
+  padding-right: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
   text-align: center;
-  padding-right: 10px;
   text-decoration: none;
+  border-right: 1px solid white;
   &:hover
   {
   color:  #8ac3bb;
+  border-right: 1px solid #8ac3bb ;
   transition: 0.4s;
+
   }
 }
 

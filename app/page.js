@@ -26,9 +26,9 @@ export default function Web() {
       {/* <Slider></Slider> */}
       {/* <Logo></Logo> */}
       <Home></Home>
-      <Team></Team>
       {/* <About></About> */}
       <Methods></Methods>
+      <Team></Team>
       <Review></Review>
       <ContactForm></ContactForm>
       

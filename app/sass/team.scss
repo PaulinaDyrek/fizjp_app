@@ -1,0 +1,47 @@
+.team_wrapper{
+  background:  linear-gradient(rgb(70, 70, 70),rgb(114, 113, 113));
+  // background: rgb(70, 70, 70);
+  color: white;
+  margin-top: 80px;
+}
+
+.team__title{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.profiles__section{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 80px;
+}
+.team__profiles{
+  flex-basis: 290px;
+}
+.team__profiles .profile-img{
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: fill;
+  filter: grayscale(80%);
+  cursor: pointer;
+  transition: 300ms;
+}
+.team__profiles:hover .profile-img{
+  filter: grayscale(0%);
+}
+.user-name{
+  margin-top: 10px;
+  font-size: 25px;
+}
+.team__profiles h5{
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: #ccc;
+}
+.team__profiles p {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: justify;
+}
