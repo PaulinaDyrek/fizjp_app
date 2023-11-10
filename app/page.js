@@ -14,13 +14,13 @@ import Review from './pages/Review.js';
 import Methods from './pages/Methods.js';
 import Header from './pages/Header.js';
 import Team from './pages/Team.js';
-
+import Footer from './pages/Footer.js';
 
 
 export default function Web() {
   return (  
     <layout id='__next'>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
       <Menu></Menu>
       <Header></Header>
       {/* <Slider></Slider> */}
@@ -31,7 +31,7 @@ export default function Web() {
       <Team></Team>
       <Review></Review>
       <ContactForm></ContactForm>
-      
+      <Footer></Footer>
     </layout>
   )
 }
