@@ -13,8 +13,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/logo2.png" />
+        <meta
+          name="viewport"
+          content="width=device-width,minimum-scale=0.5,initial-scale=1"
+        />
       </head>
       <body>{children}</body>
     </html>
   )
 }
+
+

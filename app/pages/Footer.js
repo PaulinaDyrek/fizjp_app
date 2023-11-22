@@ -22,7 +22,6 @@ export default function Footer(){
           <ul className='footer__list'>
             <li className='footer__link'><a href='#'>Fizjostacja</a></li>
             <li className='footer__link'><a href='#aboutMe'>O nas</a></li>
-            <li className='footer__link'><a href='#opinion'>Opinie</a></li>
             <li className='footer__link'><a href='#offer'>Oferta</a></li>
             <li className='footer__link'><a href='#opinion'>Opinie</a></li>
           </ul>

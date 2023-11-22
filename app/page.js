@@ -15,6 +15,7 @@ import Methods from './pages/Methods.js';
 import Header from './pages/Header.js';
 import Team from './pages/Team.js';
 import Footer from './pages/Footer.js';
+import Maps from './pages/Maps.js';
 
 
 export default function Web() {
@@ -31,6 +32,7 @@ export default function Web() {
       <Team></Team>
       <Review></Review>
       <ContactForm></ContactForm>
+      <Maps></Maps>
       <Footer></Footer>
     </layout>
   )
