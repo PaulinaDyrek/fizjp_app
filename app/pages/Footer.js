@@ -1,5 +1,10 @@
+
 import styles from 'app/sass/footer.scss';
 import Image from 'next/image';
+
+
+
+
 
 export default function Footer(){
   return(
@@ -48,6 +53,7 @@ export default function Footer(){
               height={35}
               /></a>
           </div>
+          
         </div>
         
       </div>
