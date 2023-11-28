@@ -39,7 +39,7 @@ export default function ContactForm(){
         <div className='info__short'> 
           <Image
           src='/baner1.png'
-          width={180}
+          width={300}
           height={80}
           />
         </div>
