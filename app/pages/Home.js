@@ -1,9 +1,7 @@
 import styles from '../sass/home.scss';
 import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCheck, 
-} from "@fortawesome/free-solid-svg-icons";
+import {faCheck } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Home (){
