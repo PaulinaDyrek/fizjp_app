@@ -1,11 +1,14 @@
 'use client'
 import Image from "next/image";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {faBars } from "@fortawesome/free-solid-svg-icons";
 import styles from '../sass/menu.scss';
-import { useEffect} from "react";
+import { useState } from "react";
 
 export default function Menu (){
+  const [showNavigation, setShowNavigation] = useState(false);
+  function handleNav(){
+    setShowNavigation(!showNavigation);
+  }
+   
   return(
     <header className='menu'>
       <div className='menu__logo'>
@@ -15,12 +18,12 @@ export default function Menu (){
           height={50}
         />
       </div>
-      <div className='hamburger'>
+      <div id='hamburger' className={showNavigation ? 'show' : ''} onClick={handleNav}>
         <div className='hamburger__line'></div>
         <div className='hamburger__line'></div>
         <div className='hamburger__line'></div>
       </div>
-      <nav className='menu__bar'>
+      <nav id='menu__bar' className={showNavigation ? 'show' : ''}>
         <ul className='menu__lists'>
           <li className='menu__list'>
           <a href='#' className='menu__link'>Fizjostacja</a>
@@ -78,3 +81,15 @@ export default function Menu (){
       
       {/* <img src='/menu.png' className='menuIcon'/> */}
    
+
+
+
+      // useEffect(() => {
+      //   const hamburger = document.getElementsByClassName('hamburger');
+      //   hamburger.onclick = function() {
+      //   const menuBar = document.getElementsByClassName('menu__bar')
+      //   menuBar.classList.toggle('active');
+      //   console.log('działa');
+      //   }
+        
+      //  }, []);

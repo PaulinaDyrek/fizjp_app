@@ -1,7 +1,7 @@
 $mainColor: #8ac3bb;
 
 
-.hamburger{
+#hamburger{
   display: none;
  }
 .menu{
@@ -11,20 +11,21 @@ $mainColor: #8ac3bb;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 15px;
   &__logo{
     background-color: transparent;
     padding: 20px 0 0 10px;
-    }
-  &__bar .menu__lists{
-    display: flex;
-    margin-right: 40px;
   }
-  &__bar .menu__lists .menu__list .menu__link{
+}
+  #menu__bar .menu__lists{
+    display: flex;
+    margin-right: 20px;
+  }
+  #menu__bar .menu__lists .menu__list .menu__link{
     display: block;
     color: white;
-    font-size: 20px;
-    padding: 5px 10px;
+    font-size: 18px;
+    padding: 0px 5px;
     border-radius: 50px;
     transition: 0.2s;
     margin: 0 10px;
@@ -36,25 +37,36 @@ $mainColor: #8ac3bb;
     color: rgb(70, 70, 70);
   }
   }
- 
-}
-.hamburger{
-  display: none;
- }
 
 @media screen and (max-width:767px){
-  .hamburger{
+  #hamburger{
     display: block;
     cursor: pointer;
-    &__line{
-      width: 30px;
-      height: 3px;
-      background: white;
-      border-radius: 10px;
-      margin: 6px 0;
-      }
+    overflow: hidden;
+    margin: 10px 20px;
   }
-  .menu__bar{
+  #hamburger.show{
+    div{
+      &:nth-child(1){
+        transform: rotate(45deg) translateY(50%) translateX(15%);
+      }
+      &:nth-child(2){
+        display: none;
+      }
+      &:nth-child(3){
+        transform: rotate(-45deg) translateY(-50%) translateX(15%);
+      }
+    }
+  }
+  .hamburger__line{
+      width: 30px;
+      height: 2px;
+      background: white;
+      border-radius: 50px;
+      margin: 6px 0;
+      transition: all .5s ease-in-out;
+      }
+  #menu__bar{
     height: 450px;
     position: absolute;
     top: 75px;
@@ -62,31 +74,50 @@ $mainColor: #8ac3bb;
     right: 0;
     width: 100vw;
     background: rgb(70, 70, 70);
-    transition: 0.2s;
+    transition: all .5s ease-in-out;
     z-index: 2;
-    &__lists{
-      display: block;
-    }
+    overflow: hidden;
+    transform: scale(.5);
+    opacity: 0;
+    visibility: hidden;
   }
-  .menu__bar .menu__lists{
+  #menu__bar .menu__lists{
     display: block;
-    width: fit-content;
-    margin: 80px auto;
+    width: 100vw;
+    margin: 50px auto;
+    text-align: left;
+    padding: 10px 30px;
+    transition: 0.5s;
+  }
+  
+  #menu__bar .menu__lists .menu__list .menu__link{
+    border-bottom: solid 1px $mainColor;
+    border-radius: 5px;
+    padding: 10px;
   }
 
+  #menu__bar.show{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+  
+  }
 }
 @media(min-width:768px) and (max-width:1024px){
   .menu .menu__lists .menu__list .menu__link{
-      font-size: 15px;
-      padding: 5px 8px;
-      margin: 0 8px;
-      font-weight: 400;
-      letter-spacing: 3px;
-      text-decoration: none;
-    }
-   
+    font-size: 14px;
+    padding: 5px 8px;
+    margin: 0 8px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-decoration: none;
   }
-  
+}
+.showNav{
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
   
 
 
