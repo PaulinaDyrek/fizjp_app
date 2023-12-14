@@ -17,21 +17,21 @@ $mainColor: #8ac3bb;
     padding: 20px 0 0 10px;
   }
 }
-  #menu__bar .menu__lists{
-    display: flex;
-    margin-right: 20px;
+#menu__bar .menu__lists{
+  display: flex;
+  margin-right: 20px;
   }
-  #menu__bar .menu__lists .menu__list .menu__link{
-    display: block;
-    color: white;
-    font-size: 18px;
-    padding: 0px 5px;
-    border-radius: 50px;
-    transition: 0.2s;
-    margin: 0 10px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-decoration: none;
+#menu__bar .menu__lists .menu__list .menu__link{
+  display: block;
+  color: white;
+  font-size: 18px;
+  padding: 0px 5px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0 10px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-decoration: none;
   &:hover{
     background: $mainColor;
     color: rgb(70, 70, 70);
@@ -59,13 +59,13 @@ $mainColor: #8ac3bb;
     }
   }
   .hamburger__line{
-      width: 30px;
-      height: 2px;
-      background: white;
-      border-radius: 50px;
-      margin: 6px 0;
-      transition: all .5s ease-in-out;
-      }
+    width: 30px;
+    height: 2px;
+    background: white;
+    border-radius: 50px;
+    margin: 6px 0;
+    transition: all .5s ease-in-out;
+  }
   #menu__bar{
     height: 450px;
     position: absolute;
@@ -89,18 +89,15 @@ $mainColor: #8ac3bb;
     padding: 10px 30px;
     transition: 0.5s;
   }
-  
   #menu__bar .menu__lists .menu__list .menu__link{
     border-bottom: solid 1px $mainColor;
     border-radius: 5px;
     padding: 10px;
   }
-
   #menu__bar.show{
     transform: scale(1);
     opacity: 1;
     visibility: visible;
-  
   }
 }
 @media(min-width:768px) and (max-width:1024px){
