@@ -6,25 +6,24 @@ import {faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home (){
   return(
-    <div className='about__wrapper' id='aboutMe'>
-      <div className='about__title'>
-        <h3>Dlaczego my?</h3>
-        <h1>Nasi pacjenci są pod doskonałą opieką</h1>
+    <div className='about-wrapper' id='aboutMe'>
+      <div className='about-title'>
+        <h3 className='about-title__h3'>Dlaczego my?</h3>
+        <h1 className='about-title__h1'>Nasi pacjenci są pod doskonałą opieką</h1>
       </div>
-      <div className='about__main'>
-        <div className='about__question'>
-          <h2>Jak pracujemy?</h2>
-          <div className='about__img'><img src='/about_1.png' alt='Obraz autorstwa jcomp na Freepik' /></div>
-          
+      <div className='about-main'>
+        <div className='about-question'>
+          <h2 className='about-question__h2'>Jak pracujemy?</h2>
+          <div className='about-pic'><img src='/about_1.png' alt='Obraz autorstwa jcomp na Freepik' className='about-pic__img'  /></div>
         </div>
-        <div className='about__info'>
-          <ul>
-            <li><FontAwesomeIcon className='about__icon' icon={faCheck} />Indywidualnie dobrana terapia</li>
-            <li><FontAwesomeIcon className='about__icon' icon={faCheck} /> Duże doświadczenie</li>
-            <li><FontAwesomeIcon className='about__icon' icon={faCheck} /> Wiedza poparta certyfikatami</li>
-            <li><FontAwesomeIcon className='about__icon' icon={faCheck} />Nowoczesne metody badania</li>
-            <li><FontAwesomeIcon className='about__icon' icon={faCheck} />Leczenie funkcjonalne</li>
-            <li><FontAwesomeIcon className='about__icon' icon={faCheck} />Wiele pozytywnych opinii</li>
+        <div className='about-info'>
+          <ul className='about-info__ul'>
+            <li className='about-info__list'><FontAwesomeIcon className='about-icon' icon={faCheck} />Indywidualna terapia</li>
+            <li className='about-info__list'><FontAwesomeIcon className='about-icon' icon={faCheck} /> Duże doświadczenie</li>
+            <li className='about-info__list'><FontAwesomeIcon className='about-icon' icon={faCheck} /> Wiedza poparta certyfikatami</li>
+            <li className='about-info__list'><FontAwesomeIcon className='about-icon' icon={faCheck} />Nowoczesne metody badania</li>
+            <li className='about-info__list'><FontAwesomeIcon className='about-icon' icon={faCheck} />Leczenie funkcjonalne</li>
+            <li className='about-info__list'><FontAwesomeIcon className='about-icon' icon={faCheck} />Wiele pozytywnych opinii</li>
           </ul>
         </div>
       </div>
@@ -33,39 +32,3 @@ export default function Home (){
   )
 }
 
-{/* <div className='about'>
-      <div className='img_container'>
-        <Image className='about__placeimg'
-        src='/main.jpg'
-        width={640}
-        height={426} />
-      </div>
-      <div className='about_wrapper'>
-        <div className='titlle'>
-          <h1 className='titlle_one'>Fizjostacja</h1>
-          <h2 className='short'>Krótko o nas</h2>
-        </div>
-        <div className='container'>
-          <div className='container_first'>
-            <div className='about_titlle'><p className='about_list'>
-            <FontAwesomeIcon icon={faCommentMedical} style={{color: '#000000',width:'2rem', paddingRight:'10px'}}/>Indywidualnie dobrana terapia</p></div>
-            <div className='about_titlle'><p className='about_list'>
-            <FontAwesomeIcon icon={faBrain} style={{color: "#000000",width:'2rem', paddingRight:'10px'}} />Duże doświadczenie</p></div>
-            <div className='about_titlle'><p className='about_list'>
-            <FontAwesomeIcon icon={faStamp} style={{color: "#000000",width:'2rem', paddingRight:'10px'}} />Wiedza poparta certyfikatami</p></div>
-          </div>  
-          <div className='container_second'>
-            <div className='about_titlle'><p className='about_list'>
-            <FontAwesomeIcon icon={faUserDoctor} style={{color: "#000000",width:'2rem', paddingRight:'10px'}}/>Nowoczesne metody badania </p></div>
-            <div className='about_titlle'><p className='about_list'>
-            <FontAwesomeIcon icon={faSuitcaseMedical} style={{color: "#000000",width:'2rem', paddingRight:'10px'}}/>Leczenie funkcjonalne</p></div>
-            <div className='about_titlle'><p className='about_list'>
-            <FontAwesomeIcon icon={faComments} style={{color: "#000000",width:'2rem', paddingRight:'10px'}} />Wiele pozytywnych opinii</p></div>
-          </div>
-          
-      </div>
-      
-      
-      </div>
-    
-    </div> */}
