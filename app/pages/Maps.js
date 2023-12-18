@@ -18,7 +18,7 @@ const Map = () => {
 
   return (
     <LoadScript googleMapsApiKey={process.env.NEXT_PUBLIC_MAPS_API_KEY}>
-      <GoogleMap
+      <GoogleMap className='map'
         mapContainerStyle={mapStyles}
         zoom={10}
         center={defaultCenter}
