@@ -1,31 +1,32 @@
-.team_wrapper{
+.team{
   background:  linear-gradient(rgb(70, 70, 70),rgb(114, 113, 113));
-  // background: rgb(70, 70, 70);
   color: white;
   margin-top: 80px;
+  &__title{
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  &__title-little{
+    font-style: italic;
+    font-size: 20px;
+    text-transform: lowercase;
+  }
+  &__section{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+  }
+  &__profiles{
+    flex-basis: 290px;
+  }
+  &__name{
+    margin-top: 10px;
+    font-size: 25px;
+  }
 }
 
-.team__title{
-  font-size: 45px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.team__title span{
-  font-style: italic;
-  font-size: 20px;
-  text-transform: lowercase;
-}
-
-.profiles__section{
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 80px;
-}
-.team__profiles{
-  flex-basis: 290px;
-}
-.team__profiles .profile-img{
+.team__profiles .team__img{
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -34,21 +35,52 @@
   cursor: pointer;
   transition: 300ms;
 }
-.team__profiles:hover .profile-img{
+.team__profiles:hover .team__img{
   filter: grayscale(0%);
 }
-.user-name{
-  margin-top: 10px;
-  font-size: 25px;
-}
-.team__profiles h5{
+.team__profiles .team__profession{
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 3px;
   color: #ccc;
 }
-.team__profiles p {
+.team__profiles .team__about {
   font-size: 16px;
   margin-top: 10px;
-  text-align: justify;
+  text-align: left;
 }
+
+
+
+@media screen and (max-width:768px){}
+
+
+
+@media(min-width:769px) and (max-width:1199px){
+  .team{
+    &__section{
+      display: flex;
+      justify-content: space-around;
+      margin: 20px 80px;
+    }
+    &__profiles{
+      flex-basis: 290px;
+    }
+    &__name{
+      font-size: 20px;
+    }
+  }
+  
+  .team__profiles .team__img{
+    width: 200px;
+    height: 200px;
+  }
+  .team__profiles .team__profession{
+    font-size: 15px;
+  }
+  .team__profiles .team__about {
+    font-size: 14px;
+    margin: 15px 15px;
+  }
+}
+
