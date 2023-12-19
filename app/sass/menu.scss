@@ -38,7 +38,7 @@ $mainColor: #8ac3bb;
   }
   }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
   #hamburger{
     display: block;
     cursor: pointer;
@@ -100,7 +100,7 @@ $mainColor: #8ac3bb;
     visibility: visible;
   }
 }
-@media(min-width:768px) and (max-width:1024px){
+@media(min-width:769px) and (max-width:1024px){
   .menu .menu__lists .menu__list .menu__link{
     font-size: 14px;
     padding: 5px 8px;

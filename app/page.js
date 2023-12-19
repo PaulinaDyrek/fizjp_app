@@ -6,7 +6,6 @@ import layout from './layout.js';
 import Menu from './pages/Menu.js';
 import Header from './pages/Header.js';
 import Home from './pages/Home.js';
-import About from './pages/About.js';
 import ContactForm from './pages/contact/page.js';
 import Review from './pages/Review.js';
 import Methods from './pages/Methods.js';
@@ -21,7 +20,6 @@ export default function Web() {
       <Menu></Menu>
       <Header></Header>
       <Home></Home>
-      {/* <About></About> */}
       <Methods></Methods>
       <Team></Team>
       <Review></Review>
