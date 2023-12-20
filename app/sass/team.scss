@@ -27,10 +27,10 @@
 }
 
 .team__profiles .team__img{
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  object-fit: fill;
+  object-fit: cover;
   filter: grayscale(90%);
   cursor: pointer;
   transition: 300ms;
@@ -47,14 +47,46 @@
 .team__profiles .team__about {
   font-size: 16px;
   margin-top: 10px;
-  text-align: left;
+  text-align: justify;
 }
 
 
 
-@media screen and (max-width:768px){}
-
-
+@media screen and (max-width:768px){
+  .team{
+    &__title{
+      font-size: 35px;
+    }
+    &__title-little{
+      font-size: 16px;
+    }
+    &__section{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 10px;
+    }
+    &__profiles{
+      flex-basis: 350px;
+    }
+    &__name{
+      font-size: 20px;
+    }
+  } 
+  .team__profiles .team__img{
+    width: 130px;
+    height: 130px;
+  }
+  .team__profiles .team__profession{
+    font-size: 15px;
+  }
+  .team__profiles .team__about {
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: justify;
+  }
+}
 
 @media(min-width:769px) and (max-width:1199px){
   .team{
@@ -72,8 +104,8 @@
   }
   
   .team__profiles .team__img{
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
   }
   .team__profiles .team__profession{
     font-size: 15px;

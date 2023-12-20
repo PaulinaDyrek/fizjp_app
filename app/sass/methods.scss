@@ -90,9 +90,9 @@
 
 @media(min-width:769px) and (max-width:1299px){
   .m-title__h1{
-    font-size: 30px;
+    font-size: 35px;
     &::after{
-      bottom: 93%;
+      bottom: 91.5%;
     }
   }
   .methods{
@@ -101,7 +101,7 @@
     justify-content: center;
     &__info{
       width: 290px;
-      height: 350px;
+      height: 300px;
       margin: 20px 20px;
     }
   }  
