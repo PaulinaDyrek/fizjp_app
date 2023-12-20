@@ -24,43 +24,43 @@ export default function (){
      }
     }, []);
   return(
-    <div className='review__wrapper' id='opinion'>
-      <h1 className='review__title'>Opinie naszych pacjentów</h1>
+    <div className='review' id='opinion'>
+      <h1 className='review__title'>Opinie pacjentów</h1>
       <div className='review__box'>
         <div id='slide'>
           <div className='card'>
             <div className='profile'>
-              <img src='/review-1.jpg' alt="" />
-              <h3>Ania Zagórowska</h3>
+              <img className='profile__img' src='/review-1.jpg' alt="" />
+              <h3 className='profile__name'>Ania Zagórowska</h3>
             </div>
-              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
+              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem </p>
           </div>
           <div className='card'>
             <div className='profile'>
-              <img src='/review-2.jpg' alt="" />
-              <h3>Laura Ogrodnik</h3>
+              <img className='profile__img' src='/review-2.jpg' alt="" />
+              <h3 className='profile__name'>Laura Ogrodnik</h3>
             </div>
-              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
+              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis </p>
           </div>
           <div className='card'>
             <div className='profile'>
-              <img src='/review-3.jpg' alt="" />
-              <h3>Marek Ptak</h3>
+              <img className='profile__img' src='/review-3.jpg' alt="" />
+              <h3 className='profile__name'>Marek Ptak</h3>
             </div>
-              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
+              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum </p>
           </div>
           <div className='card'>
             <div className='profile'>
-              <img src='/review-4.jpg' alt="" />
-              <h3>Paweł Bielan</h3>
+              <img className='profile__img' src='/review-4.jpg' alt="" />
+              <h3 className='profile__name'>Paweł Bielan</h3>
             </div>
-              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis illum magni exercitationem ipsum delectus qui consequatur?</p>
+              <p className='profile__description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ratione dolorum atque consectetur repellat magnam, perferendis nisi similique explicabo quod quidem distinctio debitis </p>
           </div>
 
         </div>
         <div className='sidebar'>
-          <img src="/arrow-up.png" id='upArrow'/>
-          <img src="/arrow-down.png" id='downArrow' />
+          <img className='sidebar__arrow' src="/arrow-up.png" id='upArrow'/>
+          <img className='sidebar__arrow' src="/arrow-down.png" id='downArrow' />
         </div>
 
 

@@ -11,16 +11,16 @@
   letter-spacing: 2px;
   padding: 20px;
   margin-bottom: 20px;
-  &::after{
-    content: '';
-    position: absolute;
-    bottom: 80%;
-    left: 50%;
-    transform: translate(-50%);
-    background: linear-gradient(#759192, #77abad,#86a8a9);
-    width: 200px;
-    height: 2.5px;
-  }
+  // &::after{
+  //   content: '';
+  //   position: absolute;
+  //   bottom: 80%;
+  //   left: 50%;
+  //   transform: translate(-50%);
+  //   background: linear-gradient(#759192, #77abad,#86a8a9);
+  //   width: 200px;
+  //   height: 2.5px;
+  // }
 }
 .methods{
   display: flex;
@@ -71,10 +71,10 @@
 @media screen and (max-width:768px){
   .m-title__h1{
     font-size: 30px;
-    &::after{
-      bottom: 95%;
-      width: 150px;
-    }
+    // &::after{
+    //   bottom: 95%;
+    //   width: 150px;
+    // }
   }
   .methods{
     flex-direction: column;
@@ -91,9 +91,9 @@
 @media(min-width:769px) and (max-width:1299px){
   .m-title__h1{
     font-size: 35px;
-    &::after{
-      bottom: 91.5%;
-    }
+    // &::after{
+    //   bottom: 91.5%;
+    // }
   }
   .methods{
     flex-wrap: wrap;
