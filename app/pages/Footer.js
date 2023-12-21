@@ -9,7 +9,7 @@ import Image from 'next/image';
 export default function Footer(){
   return(
     <footer className='footer__wrapper'>
-      <div className='row'>
+      <div className='footer__row'>
         <div className='col'>
           <img src='/logo_1.png' className='logo' />
           <p>This website contains Images and Icons by Freepik</p>
