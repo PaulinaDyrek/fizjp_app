@@ -33,7 +33,7 @@ export default function ContactForm(){
               <textarea className='text-area' name='message' id='message'  rows="5" required></textarea>
               <label htmlFor='message'><FontAwesomeIcon icon={faComments} style={{color: "#fff",width:'1.5rem', paddingRight:'10px'}}/>Pytanie do nas...</label>
             </div>
-            <button button type='submit'><FontAwesomeIcon icon={faPaperPlane} style={{color: "#fff",width:'1.5rem', paddingRight:'10px'}}/>Wyślij</button>
+            <button type='submit'><FontAwesomeIcon icon={faPaperPlane} style={{color: "#fff",width:'1.5rem', paddingRight:'10px'}}/>Wyślij</button>
         </form>
         <script scr='https://smtpjs.com/v3/smtp.js'></script>
         <div className='info'>
@@ -57,10 +57,6 @@ export default function ContactForm(){
             <a className='info__link' href='mailto:fizjostacja@gmail.com'><FontAwesomeIcon icon={faAt} style={{color: "#fff",width:'1.5rem', paddingRight:'10px'}}/>fizjostacja@gmail.com</a>
           </div>
         </div>
-        {/* <div className='google-maps'>
-          <h1 className='maps__title'>Tu jesteśmy</h1>
-          <div className='maps__container' id='map'><Script src='app/pages/Maps.js'></Script></div>
-        </div> */}
       </div>
 
     </div>
