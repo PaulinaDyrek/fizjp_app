@@ -2,19 +2,15 @@
 import styles from 'app/sass/footer.scss';
 import Image from 'next/image';
 
-
-
-
-
 export default function Footer(){
   return(
-    <footer className='footer__wrapper'>
+    <footer className='footer'>
       <div className='footer__row'>
-        <div className='col'>
+        <div className='footer__col'>
           <img src='/logo_1.png' className='logo' />
           <p>This website contains Images and Icons by Freepik</p>
         </div>
-        <div className='col'>
+        <div className='footer__col'>
           <h3>Fizjostacja</h3>
           <p>Gabinet fizjoterapii i terapii manualnej</p>
           <p>Łukowica 440, 34-606 Łukowica</p>
@@ -22,7 +18,7 @@ export default function Footer(){
           <p className='email-id'>fizjostacja@gmail.com</p>
           <h4>+48 510 860 688</h4>
         </div>
-        <div className='col'>
+        <div className='footer__col'>
           <h3>Linki</h3>
           <ul className='footer__list'>
             <li className='footer__link'><a href='#'>Fizjostacja</a></li>
@@ -31,7 +27,7 @@ export default function Footer(){
             <li className='footer__link'><a href='#opinion'>Opinie</a></li>
           </ul>
         </div>
-        <div className='col'>
+        <div className='footer__col'>
           <h3>Tu nas znajdziesz</h3>
           <div className='contact-wrapper'>
             <a href='tel:+485105860688' className='contact'>
@@ -53,9 +49,7 @@ export default function Footer(){
               height={35}
               /></a>
           </div>
-          
         </div>
-        
       </div>
       <hr className='line' />
       <p className='copyrights'>Fizjostacja © 2023 - All Rights Reserved</p>
