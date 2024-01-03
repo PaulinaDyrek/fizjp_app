@@ -24,7 +24,7 @@ export default function Web() {
       <Team></Team>
       <Review></Review>
       <ContactForm></ContactForm>
-      <Maps></Maps>
+      {/* <Maps></Maps> */}
       <Footer></Footer>
     </layout>
   )

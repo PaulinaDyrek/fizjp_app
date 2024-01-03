@@ -58,8 +58,8 @@ export default function ContactForm(){
           </div>
         </div>
       </div>
-      <div >
-        <iframe className='map'  src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=%C5%81ukowica%20440+(Fizjostacja)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+      <div className='map-container'>
+        <iframe className='map' src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=%C5%81ukowica%20440+(Fizjostacja)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
       </div>
 
     </div>

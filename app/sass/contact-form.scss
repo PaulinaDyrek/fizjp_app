@@ -92,6 +92,14 @@ button{
   text-decoration: none;
 }
 
+.map{
+  text-align: left;
+  width: 40%;
+  height: 300px;
+  margin-top: 20px;
+  border: 0;
+}
+
 @media screen and (max-width:768px){
   .contact-title {
     font-size: 15px;
@@ -142,6 +150,10 @@ button{
     text-align: left;
     text-decoration: none;
   }
+  .map{
+    width: 90%;
+    margin-top: 20px;
+  }
 }
 @media(min-width:769px) and (max-width:1299px){
   .contact-title{
@@ -182,5 +194,9 @@ button{
   }
   .info__short .info__link{
     font-size: 13px;
+  }
+  .map{
+    width: 60%;
+    margin-top: 20px;
   }
 }
