@@ -11,7 +11,7 @@ Project is created with:
 * React Framework Next.js
 * JavaScript language
 
-## Setup
+## Start & watchs
 
 First, run the development server:
 
