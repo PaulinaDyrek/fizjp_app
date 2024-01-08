@@ -1,7 +1,7 @@
 import styles from 'app/sass/methods.scss';
 import Link from 'next/link';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faWheelchair,faHandsBubbles, faHandHoldingHeart, faBrain, faDumbbell} from "@fortawesome/free-solid-svg-icons";
+import {faWheelchair,faHandsBubbles, faHandHoldingHeart, faBrain, faDumbbell, faBandage} from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Methods (){
@@ -40,13 +40,13 @@ export default function Methods (){
           <div className='methods__icon'>
           <FontAwesomeIcon  icon={faDumbbell} /></div>
           <h3 className='methods__name'>Trenig medyczny</h3>
-          <Link className='methods__link' href='/pages/method/trenig'><p className='methods__description'>Najogólniej ujmując jest to połączenie fizjoterapii oraz treningu. Trening medyczny powstał z myślą o sportowcach, którzy po rehabilitacji potrzebują treningu specjalistycznego w swojej dyscyplinie.</p></Link>
+          <Link className='methods__link' href='/pages/method/trening'><p className='methods__description'>Najogólniej ujmując jest to połączenie fizjoterapii oraz treningu. Trening medyczny powstał z myślą o sportowcach, którzy po rehabilitacji potrzebują treningu specjalistycznego w swojej dyscyplinie.</p></Link>
         </div>
         <div className='methods__info'>
           <div className='methods__icon'>
-            <FontAwesomeIcon  icon={faBrain} /></div>
-          <h3 className='methods__name'>Terapia neuro/orto</h3>
-          <Link className='methods__link' href='/pages/method/neuro-orto'><p className='methods__description'>PNF to metoda kinezyterapii opierająca się na neurofizjologicznych wzorcach wykonywania czynności ruchowych oraz ich rozwoju i zmian w trakcie całego życia człowieka.</p></Link>
+            <FontAwesomeIcon  icon={faBandage} /></div>
+          <h3 className='methods__name'>Suche igłowanie</h3>
+          <Link className='methods__link' href='/pages/method/iglowanie'><p className='methods__description'>Polega na nakłuciu punktu spustowego w mięśniu lub nakłuciu napiętego pasma mięśniowego za pomocą igieł do akupunktury w celu leczenia bólu mięśniowo-powięziowego i dysfunkcji w obrębie narządu ruchu.</p></Link>
         </div>
         </div>
       
