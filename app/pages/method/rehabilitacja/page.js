@@ -1,7 +1,7 @@
 import styles from 'app/sass/offer.scss';
 import Link from 'next/link';
 
-export default function Rehabilitacja(){
+export default function Offer(){
   return(
     <div className='work'>
       <div className='main-area'>
@@ -16,7 +16,7 @@ export default function Rehabilitacja(){
             Incidunt, quo. Ex distinctio est officiis tempora qui, totam rem nulla reiciendis quod, fugiat, debitis odit asperiores! Distinctio quae voluptatem possimus id architecto dolorum itaque deserunt sit eius corporis. Laudantium.
             Nam quidem dolore quisquam nihil cumque, esse, veniam, quia eius voluptate libero consectetur? Facilis asperiores, velit in possimus itaque dignissimos, ratione adipisci, consequuntur quam eveniet dolore libero molestias cupiditate quibusdam?
             </p></div>
-            <img className='img__method' src='/offer/method_1.jpg'/>
+            <img className='img__method' src='/offer/rehabilitacja.jpg'/>
           </div>
           <button className='btn-question'><Link className='btn-form' href='/pages/contact'>Masz pytanie?</Link></button>
         </div>

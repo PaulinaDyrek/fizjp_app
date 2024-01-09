@@ -165,3 +165,140 @@ $mainColor: #8ac3bb;
   text-decoration: none;
   color: white;
 }
+
+
+
+@media screen and (max-width: 426px){
+.main-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+}
+.title-container{
+  height: 20vh;
+}
+.title-container h1 {
+  font-size: 20px;
+  margin-left: 40px;
+}
+.sidebar{
+  width: 60px;
+  padding: 10px 5px;
+}
+.logo{
+  width: 60px;
+  padding: 10px;
+}
+.sidebar__title{
+  font-size: 13px;
+}
+.logo__img{
+  width: 35px;
+}
+.sidebar__img{
+  width: 30px;
+  margin-right: 0px;
+}
+.sidebar__ul{
+  padding: 0 10px;
+}
+.sidebar__ul .sidebar__list{
+  margin: 30px 0;
+}
+
+.sidebar__ul .sidebar__list p{
+  font-size: 15px;
+}
+.offer{
+  width: 80%;
+}
+.offer__title{
+  font-size: 20px;
+}
+.offer__description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+.offer__text{
+  width: 100%;
+  font-size: 13px;
+}
+.img__method{
+  width: 80%;
+  margin-top: 20px;
+}
+.btn-question{
+  font-size: 13px;
+}
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px){
+  .main-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+  }
+  .title-container{
+    height: 20vh;
+  }
+  .title-container h1 {
+    font-size: 22px;
+    margin-left: 40px;
+  }
+  .sidebar{
+    width: 60px;
+    padding: 10px 5px;
+  }
+  .logo{
+    width: 65px;
+    padding: 1px;
+  }
+  .sidebar__title{
+    font-size: 16px;
+  }
+  .logo__img{
+    width: 35px;
+  }
+  .sidebar__img{
+    width: 35px;
+    margin-right: 0px;
+  }
+  .sidebar__ul{
+    padding: 0 10px;
+  }
+  .sidebar__ul .sidebar__list{
+    margin: 30px 0;
+  }
+  
+  .sidebar__ul .sidebar__list p{
+    font-size: 15px;
+  }
+  .offer{
+    width: 80%;
+  }
+  .offer__title{
+    font-size: 20px;
+  }
+  .offer__description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .offer__text{
+    width: 100%;
+    font-size: 13px;
+  }
+  .img__method{
+    width: 70%;
+    margin-top: 20px;
+  }
+  .btn-question{
+    font-size: 13px;
+  }
+}
