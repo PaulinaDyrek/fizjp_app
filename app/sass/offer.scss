@@ -1,18 +1,21 @@
 $mainColor: #8ac3bb;
 .work{
   background-color:#f6fbff;
-  width: 100%;
-  height: 100vh;
   position: relative;
+}
+.main-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
 }
 .title-container{
   position: relative;
   width: 100%;
-  height: 45vh;
+  height: 25vh;
   overflow: hidden;
   background: linear-gradient(#759192, #77abad, white);
-  opacity: 0.8;
-  
+  opacity: 0.8; 
 }
 .title-container h1 {
   color: white;
@@ -21,15 +24,13 @@ $mainColor: #8ac3bb;
   letter-spacing: 1px;
   margin-top: 0;
 }
-.title-container svg{
+.wave{
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   display: block;
-  
 }
-
 .sidebar{
   width: 110px;
   height: 100%;
@@ -46,7 +47,6 @@ $mainColor: #8ac3bb;
   &:hover{
     width: 300px;
   }
-
 }
 .logo{
   display: flex;
@@ -94,7 +94,6 @@ $mainColor: #8ac3bb;
   white-space: nowrap;
   display: none;
 }
-
 .btn-back{
   border-radius: 10px;
   background: $mainColor;
@@ -108,9 +107,7 @@ $mainColor: #8ac3bb;
 .btn-back .btn-link{
   text-decoration: none;
   color: white;
-  
 }
-
 .sidebar:hover .logo .sidebar__title{
   display: block;
 }
@@ -131,10 +128,6 @@ $mainColor: #8ac3bb;
 .offer{
   width: 75%;
   border-left: solid 1px $mainColor;
-  position: absolute;
-  bottom: 10px;
-  left: 60%;
-  transform: translate(-50%,0);
   padding: 0 25px;
 }
 .offer__title{
@@ -156,15 +149,11 @@ $mainColor: #8ac3bb;
   width: 40%;
   border-radius: 10px;
 }
-
 .btn-question{
-  position: absolute;
-  bottom: 10%;
-  right: 20%;
   border-radius: 10px;
   background: $mainColor;
   border: 1px solid $mainColor;
-  font-size: 18px;
+  font-size: 16px;
   padding: 5px 10px;
   margin-top: 20px;
   &:hover{
@@ -175,5 +164,4 @@ $mainColor: #8ac3bb;
 .btn-question .btn-form{
   text-decoration: none;
   color: white;
-  
 }

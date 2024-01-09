@@ -35,9 +35,7 @@ export default function Rehabilitacja(){
         <div className='offer__description'>
           <div className='offer__text'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa labore quae, eum maiores neque quibusdam culpa facilis similique doloremque illo, totam, at ab dicta tenetur laboriosam quia quaerat iure magnam!
           Animi earum ex ratione laborum! Esse hic natus ad iste quidem ipsum, odit vero atque provident laborum, similique fugiat obcaecati ea adipisci eaque porro veniam velit. Excepturi doloremque quisquam ullam.
-          Natus quos fugit earum deleniti molestias, ex, nam illum nesciunt vero dolorem, unde alias quae enim pariatur doloremque accusamus magni assumenda a rem nisi? In iure aut reiciendis soluta odio.
-          Aspernatur esse exercitationem ipsum, quasi laborum rem et ad quos a vel eius porro quidem quam velit minima tenetur. Fugit dolore deserunt deleniti, reiciendis assumenda accusantium veritatis minus cum omnis.
-          Harum esse pariatur ducimus quo laborum eveniet, porro, provident quam dicta culpa a aliquid assumenda sunt deleniti id! Magni nobis iure eum perspiciatis facere amet doloribus fugit sed ad molestiae!</p></div>
+          Natus quos fugit earum deleniti molestias, ex, nam illum nesciunt vero dolorem, unde alias quae enim pariatur doloremque accusamus magni assumenda a rem nisi? In iure aut reiciendis soluta odio.</p></div>
           <img className='img__method' src='/offer/trening.jpg'/>
         </div>
         <button className='btn-question'><Link className='btn-form' href='/pages/contact'>Masz pytanie?</Link></button>
