@@ -1,40 +1,47 @@
-.form-container{
+.form-container {
   width: 100%;
   position: relative;
   padding-top: 50px;
   padding-bottom: 80px;
-  background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0,0,0,0.8),#355153),url('/background-1.jpg');
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(0, 0, 0, 0.8),
+      #355153
+    ),
+    url('/files/background-1.jpg');
   background-size: cover;
 }
-.contact-title{
+.contact-title {
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 4px;
   position: absolute;
   left: 50%;
   top: 0%;
-  transform: translate(-50%,-0);
+  transform: translate(-50%, -0);
   text-transform: uppercase;
-  color:rgb(78, 78, 78);
+  color: rgb(78, 78, 78);
   z-index: 1;
 }
-.form-wrapper{
+.form-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.form{
+.form {
   width: 100%;
   max-width: 600px;
   margin-top: 60px;
   z-index: 1;
 }
-.input-group{
+.input-group {
   margin-bottom: 15px;
   position: relative;
   z-index: 1;
 }
-.input, .text-area{
+.input,
+.text-area {
   width: 100%;
   padding: 12px;
   outline: 0;
@@ -43,7 +50,7 @@
   background-color: transparent;
   font-size: 13px;
 }
-label{
+label {
   height: 100%;
   position: absolute;
   left: 0;
@@ -54,7 +61,7 @@ label{
   transition: 0.2s;
   z-index: 1;
 }
-button{
+button {
   padding: 10px 0;
   color: #fff;
   outline: none;
@@ -63,28 +70,28 @@ button{
   width: 100%;
   cursor: pointer;
 }
-.input:focus ~label,
-.input:valid ~label,
-.text-area:focus ~label,
-.text-area:valid ~label{
+.input:focus ~ label,
+.input:valid ~ label,
+.text-area:focus ~ label,
+.text-area:valid ~ label {
   top: -10px;
   font-size: 13px;
 }
-.row{
+.row {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.row .input-group{
+.row .input-group {
   flex-basis: 49%;
 }
-.info{
+.info {
   color: white;
-  &__short{
+  &__short {
     text-align: left;
   }
 }
-.info__short .info__link{
+.info__short .info__link {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 18px;
@@ -92,8 +99,7 @@ button{
   text-decoration: none;
 }
 
-
-.map{
+.map {
   text-align: left;
   width: 40%;
   height: 300px;
@@ -101,21 +107,22 @@ button{
   border: 0;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   .contact-title {
     font-size: 15px;
     font-weight: 200;
     letter-spacing: 1px;
   }
-  .form-wrapper{
+  .form-wrapper {
     display: flex;
     flex-direction: column;
     margin: 25px 15px;
   }
-  .input-group{
+  .input-group {
     margin-bottom: 5px;
   }
-  .input, .text-area{
+  .input,
+  .text-area {
     width: 100%;
     padding: 12px;
     outline: 0;
@@ -124,79 +131,79 @@ button{
     background-color: transparent;
     font-size: 13px;
   }
-  label{
+  label {
     font-size: 14px;
     padding: 5px;
   }
-  button{
+  button {
     padding: 5px 0;
   }
-  .input:focus ~label,
-  .input:valid ~label,
-  .text-area:focus ~label,
-  .text-area:valid ~label{
+  .input:focus ~ label,
+  .input:valid ~ label,
+  .text-area:focus ~ label,
+  .text-area:valid ~ label {
     top: -4px;
     font-size: 10px;
   }
-  .info{
+  .info {
     margin-top: 60px;
-    &__image{
+    &__image {
       display: none;
     }
   }
-  .info__short .info__link{
+  .info__short .info__link {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 16px;
     text-align: left;
     text-decoration: none;
   }
-  .map{
+  .map {
     width: 90%;
     margin-top: 20px;
   }
 }
-@media(min-width:769px) and (max-width:1299px){
-  .contact-title{
+@media (min-width: 769px) and (max-width: 1299px) {
+  .contact-title {
     font-size: 18px;
   }
-  .form-wrapper{
+  .form-wrapper {
     margin: 40px 20px;
   }
-  .form{
+  .form {
     width: 80%;
     max-width: 600px;
     margin-top: 60px;
     z-index: 1;
   }
-  .input-group{
+  .input-group {
     margin-bottom: 10px;
   }
-  label{
+  label {
     font-size: 14px;
     padding: 10px;
   }
-  button{
+  button {
     padding: 8px 0;
   }
-  .input:focus ~label,
-  .input:valid ~label,
-  .text-area:focus ~label,
-  .text-area:valid ~label{
+  .input:focus ~ label,
+  .input:valid ~ label,
+  .text-area:focus ~ label,
+  .text-area:valid ~ label {
     top: -10px;
     font-size: 12px;
   }
-  .info{
+  .info {
     color: white;
     margin: 0 20px;
   }
-  .info__short .info_description{
+  .info__short .info_description {
     font-size: 13px;
   }
-  .info__short .info__link{
+  .info__short .info__link {
     font-size: 13px;
   }
-  .map{
+  .map {
     width: 60%;
     margin-top: 20px;
   }

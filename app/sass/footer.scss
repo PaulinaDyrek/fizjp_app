@@ -1,4 +1,4 @@
-.footer{
+.footer {
   width: 100%;
   position: relative;
   background: linear-gradient(to right, #565959, #2e4246);
@@ -8,98 +8,101 @@
   line-height: 18px;
   font-weight: 400;
   text-align: left;
-  &__row{
+  &__row {
     width: 90%;
     margin: auto;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
   }
-  &__col{
+  &__col {
     width: 25%;
     flex-basis: 35%;
     padding: 10px;
   }
+  &__info {
+    font-size: 10px;
+  }
 }
-.footer__col:nth-child(3){
+.footer__col:nth-child(3) {
   flex-basis: 15%;
 }
-.logo{
+.logo {
   width: fit-content;
   height: 80px;
   margin-bottom: 100px;
 }
-.footer__col h3{
+.footer__col h3 {
   margin-bottom: 40px;
 }
-.email-id{
+.email-id {
   width: fit-content;
   border-bottom: 1px solid #ccc;
   margin: 20px 0;
 }
-.footer__list .footer__link{
+.footer__list .footer__link {
   list-style: none;
   margin-bottom: 12px;
 }
-.footer__list .footer__link a{
+.footer__list .footer__link a {
   text-decoration: none;
   color: #fff;
 }
-.contact-wrapper a{
+.contact-wrapper a {
   display: inline-block;
   margin-right: 10px;
 }
-.line{
+.line {
   width: 90%;
   border: 0;
   border-bottom: 1px solid #ccc;
   margin: 20px auto;
 }
-.copyrights{
+.copyrights {
   text-align: center;
 }
 
-@media(max-width: 767px){
-  .footer__col{
+@media (max-width: 767px) {
+  .footer__col {
     flex-basis: 90%;
   }
-  .footer__col:nth-child(3){
+  .footer__col:nth-child(3) {
     flex-basis: 100%;
   }
-  .logo{
+  .logo {
     width: fit-content;
     height: 50px;
     margin-bottom: 100px;
   }
 }
 
-@media(max-width: 574px){
-  .footer{
-    &__row{
+@media (max-width: 574px) {
+  .footer {
+    &__row {
       width: 90%;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
     }
-    &__col{
+    &__col {
       width: 100%;
       flex-basis: 100%;
       padding: 5px;
     }
   }
-  .footer__col:nth-child(3){
+  .footer__col:nth-child(3) {
     flex-basis: 100%;
   }
-  .logo{
+  .logo {
     width: fit-content;
     height: 80px;
     margin-bottom: 50px;
   }
-  .footer__col h3{
+  .footer__col h3 {
     margin-bottom: 30px;
   }
-  .footer__list .footer__link{
+  .footer__list .footer__link {
     margin-bottom: 10px;
   }
 }

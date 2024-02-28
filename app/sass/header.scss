@@ -1,42 +1,45 @@
 $mainColor: #8ac3bb;
 
-.header-wrapper{
+.header-wrapper {
   width: 100%;
   height: 90vh;
   position: relative;
-  background: linear-gradient(rgba(25, 64, 65, 0.7), rgba(43, 109, 111, 0.7),rgba(121, 119, 119, 0.45)); 
-
+  background: linear-gradient(
+    rgba(25, 64, 65, 0.7),
+    rgba(43, 109, 111, 0.7),
+    rgba(121, 119, 119, 0.45)
+  );
 }
-.header-wrapper svg{
+.header-wrapper svg {
   position: absolute;
   left: 0;
   bottom: 0;
 }
-.header-title{
+.header-title {
   position: absolute;
   right: 0;
-  bottom: 15%;  
+  bottom: 15%;
   width: 60%;
   height: 50%;
   color: white;
   text-align: left;
-  &__h1{
+  &__h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 40px;
     font-weight: 400;
   }
-  &__h3{
+  &__h3 {
     font-weight: 400;
     font-size: 20px;
   }
 }
-.main-title{
+.main-title {
   font-size: 110px;
   font-weight: 400;
   position: absolute;
   left: 40%;
-  top: 0; 
+  top: 0;
   color: transparent;
   background-image: linear-gradient(white, white);
   background-repeat: no-repeat;
@@ -45,12 +48,12 @@ $mainColor: #8ac3bb;
   background-position: -700px 0;
   animation: backcolor 5s linear infinite alternate;
 }
-@keyframes backcolor{
-  100%{
+@keyframes backcolor {
+  100% {
     background-position: 0 0;
   }
 }
-.header-img{
+.header-img {
   position: absolute;
   width: 35%;
   height: 90%;
@@ -58,54 +61,53 @@ $mainColor: #8ac3bb;
   bottom: 0px;
   z-index: 1;
 }
-.contact-link{
+.contact-link {
   position: absolute;
   bottom: 25%;
   right: 15%;
   width: 210px;
   border: solid 2px white;
   border-radius: 20px;
-  &:hover{
-    background: white;  
-  } 
+  &:hover {
+    background: white;
+  }
 }
-.contact-link a{
+.contact-link a {
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
-.contact-link:hover a{
+.contact-link:hover a {
   color: $mainColor;
   background: white;
 }
 
-
-@media screen and (max-width:768px){
-  .header-wrapper{
+@media screen and (max-width: 768px) {
+  .header-wrapper {
     width: 100%;
-    height: 80vh; 
+    height: 80vh;
   }
-  .header-title{
-    top: 20%;  
+  .header-title {
+    top: 20%;
     left: 2%;
     width: 100%;
     color: white;
     text-align: left;
-    &__h1{
+    &__h1 {
       letter-spacing: 1px;
       font-size: 20px;
     }
-    &__h3{
+    &__h3 {
       font-weight: 200;
       font-size: 16px;
     }
   }
-  .main-title{
+  .main-title {
     font-size: 55px;
     left: 2%;
-    top: 0; 
+    top: 0;
   }
-  .header-img{
+  .header-img {
     position: absolute;
     width: 40%;
     height: 40%;
@@ -113,45 +115,44 @@ $mainColor: #8ac3bb;
     bottom: 0;
     z-index: 1;
   }
-  .contact-link{
+  .contact-link {
     bottom: 25%;
     right: 10%;
     width: 160px;
   }
-  .contact-link a{
+  .contact-link a {
     font-size: 14px;
   }
-  .contact-link:hover a{
+  .contact-link:hover a {
     color: $mainColor;
     background: white;
-  } 
+  }
 }
 
-@media(min-width:769px) and (max-width:1199px){
-.header-wrapper{
-  height: 85vh;
+@media (min-width: 769px) and (max-width: 1199px) {
+  .header-wrapper {
+    height: 85vh;
+  }
+  .header-title h1 {
+    font-size: 25px;
+  }
+  .header-title h3 {
+    font-size: 16px;
+  }
+  .main-title {
+    font-size: 85px;
+    animation: backcolor 6s linear infinite alternate;
+  }
+  .header-img {
+    width: 40%;
+    height: 65vh;
+  }
+  .contact-link {
+    bottom: 20%;
+    right: 10%;
+    width: 180px;
+  }
+  .contact-link a {
+    font-size: 15px;
+  }
 }
-.header-title h1{
-  font-size: 25px;
-}
-.header-title h3{
-  font-size: 16px;
-}
-.main-title{
-  font-size: 85px;
-  animation: backcolor 6s linear infinite alternate; 
-}
-.header-img{
-  width: 40%;
-  height: 65vh;
-}
-.contact-link{
-  bottom: 20%;
-  right: 10%;
-  width: 180px;
-}
-.contact-link a{
-  font-size: 15px;
-}
-}
-

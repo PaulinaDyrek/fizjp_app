@@ -1,32 +1,32 @@
-.team{
-  background:  linear-gradient(rgb(70, 70, 70),rgb(114, 113, 113));
+.team {
+  background: linear-gradient(rgb(70, 70, 70), rgb(114, 113, 113));
   color: white;
   margin-top: 80px;
-  &__title{
+  &__title {
     font-size: 45px;
     font-weight: 400;
     text-transform: uppercase;
   }
-  &__title-little{
+  &__title-little {
     font-style: italic;
     font-size: 20px;
     text-transform: lowercase;
   }
-  &__section{
+  &__section {
     display: flex;
     justify-content: space-around;
     margin: 20px 80px;
   }
-  &__profiles{
+  &__profiles {
     flex-basis: 290px;
   }
-  &__name{
+  &__name {
     margin-top: 10px;
     font-size: 25px;
   }
 }
 
-.team__profiles .team__img{
+.team__profiles .team__img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -35,10 +35,10 @@
   cursor: pointer;
   transition: 300ms;
 }
-.team__profiles:hover .team__img{
+.team__profiles:hover .team__img {
   filter: grayscale(0%);
 }
-.team__profiles .team__profession{
+.team__profiles .team__profession {
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 3px;
@@ -50,35 +50,33 @@
   text-align: justify;
 }
 
-
-
-@media screen and (max-width:768px){
-  .team{
-    &__title{
+@media screen and (max-width: 768px) {
+  .team {
+    &__title {
       font-size: 35px;
     }
-    &__title-little{
+    &__title-little {
       font-size: 16px;
     }
-    &__section{
+    &__section {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       margin: 20px 10px;
     }
-    &__profiles{
+    &__profiles {
       flex-basis: 350px;
     }
-    &__name{
+    &__name {
       font-size: 20px;
     }
-  } 
-  .team__profiles .team__img{
+  }
+  .team__profiles .team__img {
     width: 130px;
     height: 130px;
   }
-  .team__profiles .team__profession{
+  .team__profiles .team__profession {
     font-size: 15px;
   }
   .team__profiles .team__about {
@@ -88,26 +86,26 @@
   }
 }
 
-@media(min-width:769px) and (max-width:1199px){
-  .team{
-    &__section{
+@media (min-width: 769px) and (max-width: 1199px) {
+  .team {
+    &__section {
       display: flex;
       justify-content: space-around;
       margin: 20px 80px;
     }
-    &__profiles{
+    &__profiles {
       flex-basis: 290px;
     }
-    &__name{
+    &__name {
       font-size: 20px;
     }
   }
-  
-  .team__profiles .team__img{
+
+  .team__profiles .team__img {
     width: 170px;
     height: 170px;
   }
-  .team__profiles .team__profession{
+  .team__profiles .team__profession {
     font-size: 15px;
   }
   .team__profiles .team__about {
@@ -115,4 +113,3 @@
     margin: 15px 15px;
   }
 }
-

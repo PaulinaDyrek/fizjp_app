@@ -11,12 +11,10 @@ import Review from './pages/Review.js';
 import Methods from './pages/Methods.js';
 import Team from './pages/Team.js';
 import Footer from './pages/Footer.js';
-import Maps from './pages/Maps.js';
-
 
 export default function Web() {
-  return (  
-    <layout id='__next'>
+  return (
+    <layout id="__next">
       <Menu></Menu>
       <Header></Header>
       <Home></Home>
@@ -24,8 +22,7 @@ export default function Web() {
       <Team></Team>
       <Review></Review>
       <ContactForm></ContactForm>
-      {/* <Maps></Maps> */}
       <Footer></Footer>
     </layout>
-  )
+  );
 }
