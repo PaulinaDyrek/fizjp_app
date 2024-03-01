@@ -46,7 +46,7 @@
     "embeddedLanguageFormatting": "auto"
   },
   "engines": {
-    "node": "20.10.0",
+    "node": "18.x",
     "npm": ">=10.4.0"
   }
 }
