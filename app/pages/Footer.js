@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__row">
         <div className="footer__col">
-          <img src="/files/logo_1.png" className="logo" />
+          <img src="/files/baner_logo.png" className="logo" />
           <p className="footer__info">
             This website contains Images and Icons by Freepik
           </p>
