@@ -86,11 +86,9 @@ export default function Offer() {
             </Link>
           </li>
         </ul>
-        <button className="btn-back">
-          <Link className="btn-link" href="/">
-            Wstecz
-          </Link>
-        </button>
+        <a className="btn-link" href="/" target="_parent">
+          <button className="btn-back"> Wstecz</button>
+        </a>
       </div>
     </div>
   );

@@ -21,87 +21,103 @@ export default function Methods() {
           <div className="methods__icon">
             <FontAwesomeIcon icon={faWheelchair} />
           </div>
-          <h3 className="methods__name">Rehabilitacja</h3>
-          <Link className="methods__link" href="/pages/method/rehabilitacja">
+          <a
+            className="methods__link"
+            href="/pages/method/rehabilitacja"
+            target="_parent">
+            <h3 className="methods__name">Rehabilitacja</h3>
             <p className="methods__description">
               Szereg działań które podejmujemy na rzecz pacjenta mające na celu
               przywrócenie całkowitej lub przynajmniej częsciowej sprawności
               fizycznej lub psychicznej.
             </p>
-          </Link>
+          </a>
         </div>
         <div className="methods__info">
           <div className="methods__icon">
             <FontAwesomeIcon icon={faHandsBubbles} />
           </div>
-          <h3 className="methods__name">Terapia manualna</h3>
-          <Link className="methods__link" href="/pages/method/manualna">
+          <a
+            className="methods__link"
+            href="/pages/method/manualna"
+            target="_parent">
+            <h3 className="methods__name">Terapia manualna</h3>
             <p className="methods__description">
               Naturalna i nieinwazyjna metoda leczenia i diagnostyki stosowana w
               odwracalnych dysfunkcjach elementów tworzących układ ruchu, takich
               jak mięśnie, stawy, więzadła, kręgosłup.
             </p>
-          </Link>
+          </a>
         </div>
         <div div className="methods__info">
           <div className="methods__icon">
             <FontAwesomeIcon icon={faHandHoldingHeart} />
           </div>
-          <h3 className="methods__name">Terapia wisceralna</h3>
-          <Link className="methods__link" href="/pages/method/wisceralna">
+          <a
+            className="methods__link"
+            href="/pages/method/wisceralna"
+            target="_parent">
+            <h3 className="methods__name">Terapia wisceralna</h3>
             <p className="methods__description">
               Rodzaj masażu brzucha przeprowadzany w celu przywrócenia
-              prawidłowego napięcia w obrębie jamy brzusznej.{' '}
+              prawidłowego napięcia w obrębie jamy brzusznej.
             </p>
-          </Link>
+          </a>
         </div>
         <div className="methods__info">
           <div className="methods__icon">
             <FontAwesomeIcon icon={faBrain} />
           </div>
-          <h3 className="methods__name">Terapia neuro/orto</h3>
-          <Link className="methods__link" href="/pages/method/neuro-orto">
+          <a
+            className="methods__link"
+            href="/pages/method/neuro-orto"
+            target="_parent">
+            <h3 className="methods__name">Terapia neuro/orto</h3>
             <p className="methods__description">
-              PNF to metoda kinezyterapii opierająca się na neurofizjologicznych
-              wzorcach wykonywania czynności ruchowych oraz ich rozwoju i zmian
-              w trakcie całego życia człowieka.
+              Terapia neuro/orto PNF to metoda kinezyterapii opierająca się na
+              neurofizjologicznych wzorcach wykonywania czynności ruchowych oraz
+              ich rozwoju i zmian w trakcie całego życia człowieka.
             </p>
-          </Link>
+          </a>
         </div>
         <div className="methods__info">
           <div className="methods__icon">
             <FontAwesomeIcon icon={faDumbbell} />
           </div>
-          <h3 className="methods__name">Trenig medyczny</h3>
-          <Link className="methods__link" href="/pages/method/trening">
+          <a
+            className="methods__link"
+            href="/pages/method/trening"
+            target="_parent">
+            <h3 className="methods__name">Trenig medyczny</h3>
             <p className="methods__description">
               Najogólniej ujmując jest to połączenie fizjoterapii oraz treningu.
               Trening medyczny powstał z myślą o sportowcach, którzy po
               rehabilitacji potrzebują treningu specjalistycznego w swojej
               dyscyplinie.
             </p>
-          </Link>
+          </a>
         </div>
         <div className="methods__info">
           <div className="methods__icon">
             <FontAwesomeIcon icon={faBandage} />
           </div>
-          <h3 className="methods__name">Suche igłowanie</h3>
-          <Link className="methods__link" href="/pages/method/iglowanie">
+          <a
+            className="methods__link"
+            href="/pages/method/iglowanie"
+            target="_parent">
+            <h3 className="methods__name">Suche igłowanie</h3>
             <p className="methods__description">
               Polega na nakłuciu punktu spustowego w mięśniu lub nakłuciu
               napiętego pasma mięśniowego za pomocą igieł do akupunktury w celu
               leczenia bólu mięśniowo-powięziowego i dysfunkcji w obrębie
               narządu ruchu.
             </p>
-          </Link>
+          </a>
         </div>
       </div>
-      <button className="button-more">
-        <Link className="methods__link" href="/pages/method/rehabilitacja">
-          Więcej
-        </Link>
-      </button>
+      <a href="/pages/method/" target="_parent">
+        <button className="button-more">Więcej...</button>
+      </a>
     </div>
   );
 }

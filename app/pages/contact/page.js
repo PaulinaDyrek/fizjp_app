@@ -135,7 +135,7 @@ export default function ContactForm() {
             </p>
           </div>
           <div className="info__short">
-            <a className="info__link" href="tel:+485105860688">
+            <a className="info__link" href="tel:+48123456789">
               <FontAwesomeIcon
                 icon={faPhone}
                 style={{ color: '#fff', width: '1.5rem', paddingRight: '10px' }}
@@ -144,7 +144,7 @@ export default function ContactForm() {
             </a>
           </div>
           <div className="info__short">
-            <a className="info__link" href="mailto:fizjostacja@gmail.com">
+            <a className="info__link" href="mailto:fizjostacja@mail.com">
               <FontAwesomeIcon
                 icon={faAt}
                 style={{ color: '#fff', width: '1.5rem', paddingRight: '10px' }}

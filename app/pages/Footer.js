@@ -48,7 +48,7 @@ export default function Footer() {
               <Image src="/files/facebook.png" width={35} height={35} />
             </a>
             <a
-              href="https://maps.app.goo.gl/3WjcKhNdF8q8FUjX7"
+              href="https://www.google.com/maps/place/1+Grafton+Street,+Dublin,+Ireland/@53.343243,-6.259336,14z/data=!4m5!3m4!1s0x48670e9b76719607:0x9d13471d963893a7!8m2!3d53.3432434!4d-6.2593362?hl=en&entry=ttu"
               className="contact">
               <Image src="/files/google-maps.png" width={35} height={35} />
             </a>

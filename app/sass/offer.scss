@@ -98,6 +98,8 @@ $mainColor: #8ac3bb;
   border-radius: 10px;
   background: $mainColor;
   border: 1px solid $mainColor;
+  color: white;
+  padding: 5px 5px;
   font-size: 15px;
   &:hover {
     background-color: rgba(145, 145, 145, 0.9);
