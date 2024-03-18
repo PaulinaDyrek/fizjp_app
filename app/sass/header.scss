@@ -81,8 +81,7 @@ $mainColor: #8ac3bb;
   color: $mainColor;
   background: white;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 426px) {
   .header-wrapper {
     width: 100%;
     height: 80vh;
@@ -110,7 +109,53 @@ $mainColor: #8ac3bb;
   .header-img {
     position: absolute;
     width: 40%;
-    height: 40%;
+    height: 35%;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .contact-link {
+    bottom: 25%;
+    right: 10%;
+    width: 160px;
+  }
+  .contact-link a {
+    font-size: 14px;
+  }
+  .contact-link:hover a {
+    color: $mainColor;
+    background: white;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .header-wrapper {
+    width: 100%;
+    height: 80vh;
+  }
+  .header-title {
+    top: 20%;
+    left: 2%;
+    width: 100%;
+    color: white;
+    text-align: left;
+    &__h1 {
+      letter-spacing: 1px;
+      font-size: 20px;
+    }
+    &__h3 {
+      font-weight: 200;
+      font-size: 16px;
+    }
+  }
+  .main-title {
+    font-size: 55px;
+    left: 2%;
+    top: 0;
+  }
+  .header-img {
+    position: absolute;
+    width: 40%;
+    height: 45%;
     left: 0;
     bottom: 0;
     z-index: 1;
