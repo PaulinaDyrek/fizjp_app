@@ -1,7 +1,13 @@
 import './globals.css';
+
 export const metadata = {
   title: 'Fizjostacja',
   description: 'Gabinet fizjoterapii',
+  icons: {
+    icon: ['/favicon.ico?v=4'],
+    apple: ['/apple-touch-icon.png?v=4'],
+    shortct: ['/apple-touch-icon.png'],
+  },
 };
 
 export default function RootLayout({ children }) {
